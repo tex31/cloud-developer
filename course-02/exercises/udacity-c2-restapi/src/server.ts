@@ -23,6 +23,7 @@ import { V0MODELS } from './controllers/v0/model.index';
     next();
   });
 
+  // router qpecification
   app.use('/api/v0/', IndexRouter)
 
   // Root URI call
